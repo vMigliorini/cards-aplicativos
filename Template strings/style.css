@@ -1,0 +1,59 @@
+.card{
+    width: 350px;
+    height: 500;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 10px;
+}
+.lista-cards{   
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.imagem{
+    width: 80px;
+    height: 80px;
+    height: 25%;
+}
+.card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    font-family: arial;
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+}
+.texto{
+    font-family: arial;
+    font-size: medium;
+    font-weight: 500;
+    text-align: center;
+    padding-inline: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+}
+.btn{
+    background-color: black;
+    border-radius: 40px;
+    font-size: x-large;
+    color: white;
+    width: 80%;
+    padding: 20px;
+}
+.card-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+}
